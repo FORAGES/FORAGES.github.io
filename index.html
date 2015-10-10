@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>F O R A G E S</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- React.js -->
+    <script src="js/react.js"></script>
+    
+    <!-- Immutable.js -->
+    <script src="js/immutable.js"></script>
+    
+    <!-- PouchDB -->
+    <script src="js/pouchdb.js"></script>
+    <script src="js/pouchdb-authentication.js"></script>
+    
+    <!-- Leaflet.js -->
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <script src="js/leaflet.js"></script>
+    
+    <!-- Geohash -->
+    <script src="js/geohash.js"></script>
+  </head>
+  <body>
+    <div id="wrapper"></div>
+    <script src="js/index.js"></script>
+    <script type="text/javascript">
+      React.render(
+        React.createElement(Main, null),
+        document.getElementById('wrapper')
+      );
+    </script>
+  </body>
+</html>
